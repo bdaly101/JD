@@ -1,5 +1,5 @@
 export const metadata = {
-    title: 'JanFinder',
+    title: 'John Dzwiwura Larchmont NY',
     icons: {
       icon: '/favicon.ico',
       shortcut: '/favicon.png',
