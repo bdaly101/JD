@@ -11,7 +11,7 @@ export default function HomePage() {
       {/* Image */}
       <div className="mt-6">
         <Image
-          src="/public/jd.jpeg"
+          src="/images/jd.jpeg"
           alt="Conspiracy Image"
           width={600}
           height={400}
@@ -31,7 +31,7 @@ export default function HomePage() {
         <ul className="space-y-2">
           <li>
             <a
-              href="/pages/flat-earth"
+              href="/flatearth"
               className="text-2xl text-blue-400 hover:text-red-500 transition"
             >
               🌍 The Flat Earth Chronicles
@@ -39,7 +39,7 @@ export default function HomePage() {
           </li>
           <li>
             <a
-              href="/pages/lizard-people"
+              href="/lizardpeople"
               className="text-2xl text-blue-400 hover:text-red-500 transition"
             >
               🦎 Lizard People in High Places
@@ -47,7 +47,7 @@ export default function HomePage() {
           </li>
           <li>
             <a
-              href="/pages/chemtrails"
+              href="/chemtrails"
               className="text-2xl text-blue-400 hover:text-red-500 transition"
             >
               ☁️ Chemtrails: A Silent Killer
@@ -55,10 +55,34 @@ export default function HomePage() {
           </li>
           <li>
             <a
-              href="/pages/alien-invasion"
+              href="/catsanddogs"
               className="text-2xl text-blue-400 hover:text-red-500 transition"
             >
-              👽 Alien Invasion Is Imminent
+              🐕 The Secret Trade: Cats and Dogs on the Menu
+            </a>
+          </li>
+          <li>
+            <a
+              href="/eco"
+              className="text-2xl text-blue-400 hover:text-red-500 transition"
+            >
+              🌱 Eco-Shooting: The Greenwashing of Violence
+            </a>
+          </li>
+          <li>
+            <a
+              href="/hollywood"
+              className="text-2xl text-blue-400 hover:text-red-500 transition"
+            >
+              🎬 Hollywood: A Direct Pipeline to the IDF
+            </a>
+          </li>
+          <li>
+            <a
+              href="/aliens"
+              className="text-2xl text-blue-400 hover:text-red-500 transition"
+            >
+              👽 Aliens Are Among Us: The Ultimate Cover-Up
             </a>
           </li>
         </ul>
